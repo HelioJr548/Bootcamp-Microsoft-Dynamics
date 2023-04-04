@@ -43,22 +43,28 @@ verificarAprovacao(calcularMedia(7, 8.5, 9))
     - Acima de 40 Obsesidade Grave;
 */
 
-const altura = 1.80;
-const peso = 80;
-
-const imc = peso / Math.pow(altura, 2)
-
-if (imc < 18.5) {
-    console.log(`Abaixo do peso`)
-} else if (imc >= 18.5 && imc < 25) {
-    console.log(`Peso normal`)
-} else if (imc >= 25 && imc < 30) {
-    console.log(`Acima do peso`)
-} else if (imc > +30 && imc < 40) {
-    console.log(`Obeso`)
-} else {
-    console.log(`Obesidade Grave`)
+function calcularImc(altura, peso) {
+    return peso / Math.pow(altura, 2)
 }
+
+const altura = parseFloat(1.80)
+const peso = parseFloat(80)
+
+function classificarImc(imc) {
+    if (imc < 18.5) {
+        console.log(`Abaixo do peso`)
+    } else if (imc >= 18.5 && imc < 25) {
+        console.log(`Peso normal`)
+    } else if (imc >= 25 && imc < 30) {
+        console.log(`Acima do peso`)
+    } else if (imc > +30 && imc < 40) {
+        console.log(`Obeso`)
+    } else {
+        console.log(`Obesidade Grave`)
+    }
+}
+
+classificarImc(calcularImc(altura, peso))
 
 /*
     3) Elabore um algoritmo que calcule o que deve ser pago por um produto, considerando o preço normal de etiqueta e a escolha da condição de pagamento. 
