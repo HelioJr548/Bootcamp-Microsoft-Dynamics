@@ -77,20 +77,27 @@ classificarImc(calcularImc(altura, peso))
     - Acima de duas vezes, preço normal de etiqueta mais juros de 10%;
 */
 
-const precoEtiqueta = 10.00;
-const descontoAVistaDebito = precoEtiqueta * 0.1;
-const descontoAVistaDinheiroOuPix = precoEtiqueta * 0.15;
-const emDuasVezesSemJuros = precoEtiqueta;
-const acimaDuasVezesComJuros = precoEtiqueta * 0.1;
-const formatoPagamento = 4
-
-if (formatoPagamento === 1) {
-    console.log(precoEtiqueta - descontoAVistaDebito);
-} else if (formatoPagamento === 2) {
-    console.log(precoEtiqueta - descontoAVistaDinheiroOuPix);
-} else if (formatoPagamento === 3) {
-    console.log(precoEtiqueta);
-} else {
-    console.log(precoEtiqueta + acimaDuasVezesComJuros);
+function aplicarDesconto(valor, desconto) {
+    return (calor - (valor * (desconto / 100)))
 }
 
+function aplicarJuros(valor, juros) {
+    return (valor + (valor * (juros / 100)));
+}
+
+function verificarDescontoOuJuros(formatoPagamento) {
+    if (formatoPagamento === 1) {
+        console.log(aplicarDesconto(precoEtiqueta, 10));
+    } else if (formatoPagamento === 2) {
+        console.log(aplicarDesconto(precoEtiqueta, 15));
+    } else if (formatoPagamento === 3) {
+        console.log(precoEtiqueta);
+    } else {
+        console.log(aplicarJuros(precoEtiqueta, 10));
+    }
+}
+
+const precoEtiqueta = 10.00;
+const formatoPagamento = 4
+
+verificarDescontoOuJuros(formatoPagamento)
