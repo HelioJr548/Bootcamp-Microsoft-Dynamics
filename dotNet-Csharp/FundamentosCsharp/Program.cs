@@ -29,4 +29,8 @@ Console.WriteLine($"Valor da variavel condicao: {condicao}");
 
 // UTILIZANDO O DateTime para pegar data e horas atuais
 DateTime dataHoraAtual = DateTime.Now;
-Console.WriteLine(dataHoraAtual);
+Console.WriteLine($"Data e Hora atual: {dataHoraAtual}");
+
+// UTILIZANDO O DateTime e adicionando dias
+DateTime addDiasNaDataAtual = DateTime.Now.AddDays(5);
+Console.WriteLine($"Data adicionada 5 dias e Hora atual : {addDiasNaDataAtual}");
