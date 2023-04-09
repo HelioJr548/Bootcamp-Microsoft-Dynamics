@@ -13,6 +13,7 @@ p.Apresentar();
  */
 
 // DECLARANDO VARIAVEIS: tipo nomeVariavel = valor
+/* 
 string apresentacao = "Olá, seja bem vindo";
 int quantidade = 1;
 double altura = 1.80;
@@ -24,3 +25,8 @@ Console.WriteLine($"Valor da variavel quantidade: {quantidade}");
 Console.WriteLine($"Valor da variavel altura: {altura.ToString("0.00")}");
 Console.WriteLine($"Valor da variavel preco: {preco}");
 Console.WriteLine($"Valor da variavel condicao: {condicao}");
+ */
+
+// UTILIZANDO O DateTime para pegar data e horas atuais
+DateTime dataHoraAtual = DateTime.Now;
+Console.WriteLine(dataHoraAtual);
