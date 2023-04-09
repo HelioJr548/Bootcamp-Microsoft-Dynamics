@@ -34,3 +34,7 @@ Console.WriteLine($"Data e Hora atual: {dataHoraAtual}");
 // UTILIZANDO O DateTime e adicionando dias
 DateTime addDiasNaDataAtual = DateTime.Now.AddDays(5);
 Console.WriteLine($"Data adicionada 5 dias e Hora atual : {addDiasNaDataAtual}");
+
+// UTILIZANDO O DateTime e formatando saida
+Console.WriteLine($"DateTime formatado p/ mostrar somente a data : {addDiasNaDataAtual.ToString("dd/MM/yyyy")}");
+Console.WriteLine($"DateTime formatado p/ mostrar data e hora sem milissegundos : {addDiasNaDataAtual.ToString("dd/MM/yyyy HH:mm")}");
