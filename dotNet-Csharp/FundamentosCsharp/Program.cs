@@ -49,3 +49,14 @@ int b = int.Parse("5"); //Parse não consegue tratar valores null
 Console.WriteLine(b);
 int inteiro = 5;
 string c = inteiro.ToString(); //ToString converte valores para string
+
+// CONVERTENDO DE MANEIRA SEGURA
+string texto = "15-";
+int d;
+
+int.TryParse(texto, out d);
+// o método "int.TryParse()" tenta converter uma string em um valor do tipo inteiro. 
+// Se bem-sucedida, retorna "true" e o valor inteiro convertido é armazenado na variável de saída.
+// Se a conversão falhar, ele retorna "false" e a variável de saída é definida como 0.
+Console.WriteLine(d);
+
