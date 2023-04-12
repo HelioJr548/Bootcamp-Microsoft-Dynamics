@@ -108,7 +108,7 @@ switch (letra)
 */
 
 // OPERADORES LÓGICOS
-
+/* 
 //Operador OR (||)
 bool ehMaiorDeIdade = false;
 bool possuiAutorizacaoDoResponsavel = true;
@@ -120,4 +120,17 @@ if (ehMaiorDeIdade || possuiAutorizacaoDoResponsavel)
 else
 {
     Console.WriteLine("Entrada não liberada.");
+}
+ */
+//Operador AND (&&) 
+bool possuiPresencaMinima = true;
+double media = 6.5;
+
+if (possuiPresencaMinima && media >= 7)
+{
+    Console.WriteLine("Aprovado");
+}
+else
+{
+    Console.WriteLine("Reprovado");
 }
