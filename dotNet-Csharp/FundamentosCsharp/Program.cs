@@ -42,6 +42,7 @@ Console.WriteLine($"DateTime formatado p/ mostrar somente a data : {addDiasNaDat
 Console.WriteLine($"DateTime formatado p/ mostrar data e hora sem milissegundos : {addDiasNaDataAtual.ToString("dd/MM/yyyy HH:mm")}");
  */
 
+/* 
 // CONVERTENDO TIPOS DE VARIAVEIS (CAST/CASTING)
 int a = Convert.ToInt32("5"); //Convert consegue tratar valores null
 Console.WriteLine(a);
@@ -59,4 +60,21 @@ int.TryParse(texto, out d);
 // Se bem-sucedida, retorna "true" e o valor inteiro convertido é armazenado na variável de saída.
 // Se a conversão falhar, ele retorna "false" e a variável de saída é definida como 0.
 Console.WriteLine(d);
+ */
 
+int quantidadeEmEstoque = 10;
+int quantidadeCompra = 80;
+bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
+
+Console.WriteLine($"Quantidade em Estoque: {quantidadeEmEstoque}");
+Console.WriteLine($"Quantidade na Compra: {quantidadeCompra}");
+Console.WriteLine($"É possivel fazer a venda: {possivelVenda}");
+
+if (possivelVenda)
+{
+    Console.WriteLine("Venda realizada");
+}
+else
+{
+    Console.WriteLine("Desculpe. Não temos a quantidade deseja em estoque.");
+}
