@@ -86,7 +86,7 @@ else
 {
     Console.WriteLine("Desculpe. Não temos a quantidade deseja em estoque.");
 }
- */
+
 
 // SWITCH CASE
 Console.WriteLine("Digite uma letra:");
@@ -105,4 +105,19 @@ switch (letra)
         Console.WriteLine("consoante");
         break;
 }
+*/
 
+// OPERADORES LÓGICOS
+
+//Operador OR (||)
+bool ehMaiorDeIdade = false;
+bool possuiAutorizacaoDoResponsavel = true;
+
+if (ehMaiorDeIdade || possuiAutorizacaoDoResponsavel)
+{
+    Console.WriteLine("Entrada liberada!");
+}
+else
+{
+    Console.WriteLine("Entrada não liberada.");
+}
