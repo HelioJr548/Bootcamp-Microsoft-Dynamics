@@ -121,7 +121,7 @@ else
 {
     Console.WriteLine("Entrada não liberada.");
 }
- */
+
 //Operador AND (&&) 
 bool possuiPresencaMinima = true;
 double media = 6.5;
@@ -133,4 +133,18 @@ if (possuiPresencaMinima && media >= 7)
 else
 {
     Console.WriteLine("Reprovado");
+}
+*/
+
+//Operador NOT (!)
+bool choveu = true;
+bool estaTarde = true;
+
+if (!choveu && !estaTarde)
+{
+    Console.WriteLine("Vou Pedalar");
+}
+else
+{
+    Console.WriteLine("Vou pedalar outro dia");
 }
