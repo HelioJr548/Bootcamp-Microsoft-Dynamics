@@ -62,7 +62,7 @@ int.TryParse(texto, out d);
 Console.WriteLine(d);
  */
 
-
+/* 
 // OPERADORES CONDICIONAIS
 
 // IF/IF-ELSE
@@ -86,3 +86,23 @@ else
 {
     Console.WriteLine("Desculpe. Não temos a quantidade deseja em estoque.");
 }
+ */
+
+// SWITCH CASE
+Console.WriteLine("Digite uma letra:");
+string letra = Console.ReadLine();
+
+switch (letra)
+{
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        Console.WriteLine("vogal");
+        break;
+    default:
+        Console.WriteLine("consoante");
+        break;
+}
+
