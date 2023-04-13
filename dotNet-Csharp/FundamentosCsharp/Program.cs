@@ -149,16 +149,35 @@ else
 }
 */
 
-
-// 
+/* 
+// Criando Calculadora
 
 Calculadora calc = new Calculadora();
 
-// calc.Somar(10, 30);
-// calc.Subtrair(10, 50);
-// calc.Multiplicar(15, 45);
-// calc.Dividir(2, 2);
+calc.Somar(10, 30);
+calc.Subtrair(10, 50);
+calc.Multiplicar(15, 45);
+calc.Dividir(2, 2);
 calc.Potencia(3, 3);
 calc.Seno(30);
 calc.Coseno(30);
 calc.Tangente(30);
+ */
+
+// Incremento de numero
+int numero = 10;
+Console.WriteLine($"Numero antes da incremento: {numero}");
+
+Console.WriteLine("Incrementando o 10");
+numero++;
+
+Console.WriteLine($"Numero depois da incremento: {numero}");
+
+// Decremento de numero
+int numeroDecremento = 20;
+Console.WriteLine($"Numero antes do Decremento: {numeroDecremento}");
+
+Console.WriteLine("Decrementando o 10");
+numeroDecremento--;
+
+Console.WriteLine($"Numero depois da Decremento: {numeroDecremento}");
