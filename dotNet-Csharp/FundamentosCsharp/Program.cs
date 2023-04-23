@@ -152,7 +152,7 @@ else
 
 // Criando Calculadora
 
-Calculadora calc = new Calculadora();
+// Calculadora calc = new Calculadora();
 
 // calc.Somar(10, 30);
 // calc.Subtrair(10, 50);
@@ -162,7 +162,7 @@ Calculadora calc = new Calculadora();
 // calc.Seno(30);
 // calc.Coseno(30);
 // calc.Tangente(30);
-calc.RaizQuadrada(9);
+// calc.RaizQuadrada(9);
 
 /* 
 // Incremento de numero
@@ -183,3 +183,13 @@ numeroDecremento--;
 
 Console.WriteLine($"Numero depois da Decremento: {numeroDecremento}");
 */
+
+// ESTRUTURAS DE REPETIÇÂO 
+
+// FOR
+int numero = 5;
+
+for (int contador = 1; contador <= 10; contador++)
+{
+    Console.WriteLine($"{contador}° Execução: {numero} x {contador} = {numero * contador}");
+}
