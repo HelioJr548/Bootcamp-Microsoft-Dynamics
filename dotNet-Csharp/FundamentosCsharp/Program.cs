@@ -189,7 +189,17 @@ Console.WriteLine($"Numero depois da Decremento: {numeroDecremento}");
 // FOR
 int numero = 5;
 
+/* 
 for (int contador = 1; contador <= 10; contador++)
 {
     Console.WriteLine($"{contador}° Execução: {numero} x {contador} = {numero * contador}");
+}
+*/
+
+// WHILE
+int contador = 1;
+while (contador <= 10)
+{
+    Console.WriteLine($"{contador}° Execução: {numero} x {contador} = {numero * contador}");
+    contador++;
 }
