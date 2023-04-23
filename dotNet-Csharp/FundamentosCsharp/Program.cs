@@ -227,8 +227,9 @@ Console.WriteLine($"Total da soma dos numeros digitados é: {soma}");
 */
 
 string opcao;
+bool exibirMenu = true;
 
-while (true)
+while (exibirMenu)
 {
     Console.WriteLine("Digite a sua opção:");
     Console.WriteLine("[1] - Cadastrar cliente");
@@ -251,10 +252,13 @@ while (true)
             break;
         case "4":
             Console.WriteLine("Encerrar");
-            Environment.Exit(0);
+            // Environment.Exit(0); // Ao executar este comando nada após a linha será executada
+            exibirMenu = false; // 
             break;
         default:
             Console.WriteLine("Opção Inválida!");
             break;
     }
 }
+
+Console.WriteLine("O programa encerrou...");
