@@ -198,6 +198,7 @@ for (int contador = 1; contador <= 10; contador++)
 
 // WHILE
 int contador = 1;
+/* 
 while (contador <= 10)
 {
     Console.WriteLine($"{contador}° Execução: {numero} x {contador} = {numero * contador}");
@@ -210,3 +211,16 @@ while (contador <= 10)
 
     contador++;
 }
+*/
+
+// DO WHILE
+int soma = 0, numeroDigitado = 0;
+do
+{
+    Console.WriteLine("Digite um numero (0 para parar)");
+    numeroDigitado = Convert.ToInt32(Console.ReadLine());
+
+    soma += numeroDigitado;
+} while (numeroDigitado != 0);
+
+Console.WriteLine($"Total da soma dos numeros digitados é: {soma}");
