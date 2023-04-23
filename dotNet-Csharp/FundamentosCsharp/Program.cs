@@ -201,5 +201,12 @@ int contador = 1;
 while (contador <= 10)
 {
     Console.WriteLine($"{contador}° Execução: {numero} x {contador} = {numero * contador}");
+
+    // Interrompendo fluxo de execução com BREAK
+    if (contador == 5)
+    {
+        break;
+    }
+
     contador++;
 }
