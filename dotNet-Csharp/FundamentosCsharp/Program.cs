@@ -253,7 +253,11 @@ while (exibirMenu)
         case "4":
             Console.WriteLine("Encerrar");
             // Environment.Exit(0); // Ao executar este comando nada após a linha será executada
+<<<<<<< HEAD
             exibirMenu = false;
+=======
+            exibirMenu = false; // 
+>>>>>>> be05a31b8610dc95e99877074ea4306a49e45b65
             break;
         default:
             Console.WriteLine("Opção Inválida!");
