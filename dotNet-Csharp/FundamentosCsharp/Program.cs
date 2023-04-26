@@ -276,16 +276,20 @@ string[] meses = { "Jan", "Fev" };   // Declarar array, passando valores
 // IMPLEMENTANDO ARRAY
 
 // declarando array
-int[] arrayInteiros = new int[3];
+int[] arrayInteiros = new int[4];
 
 // passando valores
 arrayInteiros[0] = 72;
 arrayInteiros[1] = 64;
 arrayInteiros[2] = 58;
-// arrayInteiros[3] = 1;    //ocorre erro por ultrapassar tamnho do array
+arrayInteiros[3] = 1;
 
 // Redimensionando Array
-Array.Resize(ref arrayInteiros, arrayInteiros.Length + 1);
+// Array.Resize(ref arrayInteiros, arrayInteiros.Length + 1);
+
+// Redimensionando Array, usando Copy
+int[] arrayInteirosDobrado = new int[arrayInteiros.Length * 2];
+Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
 
 // Percorrendo arryay com FOR
 Console.WriteLine("Percorrendo o Array com o FOR");
