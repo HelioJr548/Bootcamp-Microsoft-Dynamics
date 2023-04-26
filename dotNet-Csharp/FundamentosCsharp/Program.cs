@@ -226,6 +226,7 @@ do
 Console.WriteLine($"Total da soma dos numeros digitados é: {soma}");
 */
 
+/* 
 string opcao;
 bool exibirMenu = true;
 
@@ -253,11 +254,7 @@ while (exibirMenu)
         case "4":
             Console.WriteLine("Encerrar");
             // Environment.Exit(0); // Ao executar este comando nada após a linha será executada
-<<<<<<< HEAD
             exibirMenu = false;
-=======
-            exibirMenu = false; // 
->>>>>>> be05a31b8610dc95e99877074ea4306a49e45b65
             break;
         default:
             Console.WriteLine("Opção Inválida!");
@@ -266,3 +263,11 @@ while (exibirMenu)
 }
 
 Console.WriteLine("O programa encerrou...");
+*/
+
+// ARRAY e LISTAS
+
+//FORMAS DE DECLARAÇÂO
+int[] array = new int[4];   // Declarar array com tamanho fixo
+int[] arrays = new int[] { 42, 75, 74, 61 };   // Declarar array, passando valores 
+string[] meses = { "Jan", "Fev" };   // Declarar array, passando valores
