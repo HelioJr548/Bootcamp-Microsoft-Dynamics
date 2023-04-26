@@ -266,8 +266,36 @@ Console.WriteLine("O programa encerrou...");
 */
 
 // ARRAY e LISTAS
-
+/* 
 //FORMAS DE DECLARAÇÂO
 int[] array = new int[4];   // Declarar array com tamanho fixo
 int[] arrays = new int[] { 42, 75, 74, 61 };   // Declarar array, passando valores 
 string[] meses = { "Jan", "Fev" };   // Declarar array, passando valores
+ */
+
+// IMPLEMENTANDO ARRAY
+
+// declarando array
+int[] arrayInteiros = new int[3];
+
+// passando valores
+arrayInteiros[0] = 72;
+arrayInteiros[1] = 64;
+arrayInteiros[2] = 58;
+// arrayInteiros[3] = 1;    //ocorre erro por ultrapassar tamnho do array
+
+// Percorrendo arryay com FOR
+Console.WriteLine("Percorrendo o Array com o FOR");
+for (int contador = 0; contador < arrayInteiros.Length; contador++)
+{
+    Console.WriteLine($"Posição n°{contador} = {arrayInteiros[contador]}");
+}
+
+// Percorrendo arryay com FOREACH
+Console.WriteLine("\nPercorrendo o Array com o FOREACH");
+int contadorForeach = 0; // constador desnecessario para execução do codigo, utilizado apenas para mostrar posição 
+foreach (int valor in arrayInteiros)
+{
+    Console.WriteLine($"Posição n°{contadorForeach} = {valor}");
+    contadorForeach++;
+}
