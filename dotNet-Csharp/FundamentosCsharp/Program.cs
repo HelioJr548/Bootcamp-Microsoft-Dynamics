@@ -314,17 +314,29 @@ List<string> listaString = new List<string>();
 listaString.Add("SP");
 listaString.Add("RJ");
 listaString.Add("BA");
+listaString.Add("MG");
 
-Console.WriteLine("Percorrendo o LISTA com o FOR");
-for (int contador = 0; contador < listaString.Count; contador++)
-{
-    Console.WriteLine($"Posição N°{contador} =  {listaString[contador]}");
-}
+//Descobrindo o funcionamento interno da LISTA
+Console.WriteLine($"Itens na minha lista: {listaString.Count} | Capacidade: {listaString.Capacity}");
 
-Console.WriteLine("\nPercorrendo o LISTA com o FOREACH");
-int contadorForeach = 0; // constador desnecessario para execução do codigo, utilizado apenas para mostrar posição 
-foreach (string item in listaString)
-{
-    Console.WriteLine($"Posição n°{contadorForeach} = {item}");
-    contadorForeach++;
-}
+listaString.Add("RS");
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} | Capacidade: {listaString.Capacity}");
+
+listaString.Remove("RJ");
+
+Console.WriteLine($"Itens na minha lista: {listaString.Count} | Capacidade: {listaString.Capacity}");
+
+// Console.WriteLine("Percorrendo o LISTA com o FOR");
+// for (int contador = 0; contador < listaString.Count; contador++)
+// {
+//     Console.WriteLine($"Posição N°{contador} =  {listaString[contador]}");
+// }
+
+// Console.WriteLine("\nPercorrendo o LISTA com o FOREACH");
+// int contadorForeach = 0; // constador desnecessario para execução do codigo, utilizado apenas para mostrar posição 
+// foreach (string item in listaString)
+// {
+//     Console.WriteLine($"Posição n°{contadorForeach} = {item}");
+//     contadorForeach++;
+// }
