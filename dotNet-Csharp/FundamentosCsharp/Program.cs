@@ -273,8 +273,8 @@ int[] arrays = new int[] { 42, 75, 74, 61 };   // Declarar array, passando valor
 string[] meses = { "Jan", "Fev" };   // Declarar array, passando valores
  */
 
+/* 
 // IMPLEMENTANDO ARRAY
-
 // declarando array
 int[] arrayInteiros = new int[4];
 
@@ -305,4 +305,26 @@ for (int contador = 0; contador < arrayInteiros.Length; contador++)
 // {
 //     Console.WriteLine($"Posição n°{contadorForeach} = {valor}");
 //     contadorForeach++;
-// }
+// } 
+*/
+
+// IMPLEMENTANDO LISTA
+List<string> listaString = new List<string>();
+
+listaString.Add("SP");
+listaString.Add("RJ");
+listaString.Add("BA");
+
+Console.WriteLine("Percorrendo o LISTA com o FOR");
+for (int contador = 0; contador < listaString.Count; contador++)
+{
+    Console.WriteLine($"Posição N°{contador} =  {listaString[contador]}");
+}
+
+Console.WriteLine("\nPercorrendo o LISTA com o FOREACH");
+int contadorForeach = 0; // constador desnecessario para execução do codigo, utilizado apenas para mostrar posição 
+foreach (string item in listaString)
+{
+    Console.WriteLine($"Posição n°{contadorForeach} = {item}");
+    contadorForeach++;
+}
