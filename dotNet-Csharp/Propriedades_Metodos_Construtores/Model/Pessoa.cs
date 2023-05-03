@@ -10,6 +10,7 @@ namespace Propriedades_Metodos_Construtores.Model
     {
         // Atributos
         private string _nome;
+        private int _idade;
 
         public string Nome  // Validando GET e SET 
         {
@@ -17,13 +18,13 @@ namespace Propriedades_Metodos_Construtores.Model
             {
                 return _nome.ToUpper(); // Transforma o todo valor recebido em maiusculo 
             } */
-            
+
             //Utilizando Body Expression
             get => _nome.ToUpper();
 
             // Caso meu SET não precisasse da validação, poderia utilizar Body Expression
             // set => _nome = value;
-            
+
             set //Atribui valores
             {
                 // Criando exceção
@@ -36,7 +37,19 @@ namespace Propriedades_Metodos_Construtores.Model
             }
         }
 
-        public int Idade { get; set; }
+        public int Idade
+        {
+
+            get => -_idade;
+
+            set
+            {
+                if (value < 0)
+                {
+                    throw new ArgumentException("Idade não pode ser menor que zero");
+                }
+            }
+        }
 
         // Métodos
         public void Apresentar()
