@@ -1,0 +1,15 @@
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Propriedades_Metodos_Construtores\obj\Debug\net7.0\Propriedades_Metodos_Construtores.csproj.AssemblyReference.cache
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Propriedades_Metodos_Construtores\obj\Debug\net7.0\Propriedades_Metodos_Construtores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Propriedades_Metodos_Construtores\obj\Debug\net7.0\Propriedades_Metodos_Construtores.AssemblyInfoInputs.cache
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Propriedades_Metodos_Construtores\obj\Debug\net7.0\Propriedades_Metodos_Construtores.AssemblyInfo.cs
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Propriedades_Metodos_Construtores\obj\Debug\net7.0\Propriedades_Metodos_Construtores.csproj.CoreCompileInputs.cache
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Propriedades_Metodos_Construtores\bin\Debug\net7.0\Propriedades_Metodos_Construtores.exe
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Propriedades_Metodos_Construtores\bin\Debug\net7.0\Propriedades_Metodos_Construtores.deps.json
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Propriedades_Metodos_Construtores\bin\Debug\net7.0\Propriedades_Metodos_Construtores.runtimeconfig.json
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Propriedades_Metodos_Construtores\bin\Debug\net7.0\Propriedades_Metodos_Construtores.dll
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Propriedades_Metodos_Construtores\bin\Debug\net7.0\Propriedades_Metodos_Construtores.pdb
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Propriedades_Metodos_Construtores\obj\Debug\net7.0\Propriedades_Metodos_Construtores.dll
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Propriedades_Metodos_Construtores\obj\Debug\net7.0\refint\Propriedades_Metodos_Construtores.dll
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Propriedades_Metodos_Construtores\obj\Debug\net7.0\Propriedades_Metodos_Construtores.pdb
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Propriedades_Metodos_Construtores\obj\Debug\net7.0\Propriedades_Metodos_Construtores.genruntimeconfig.cache
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Propriedades_Metodos_Construtores\obj\Debug\net7.0\ref\Propriedades_Metodos_Construtores.dll
