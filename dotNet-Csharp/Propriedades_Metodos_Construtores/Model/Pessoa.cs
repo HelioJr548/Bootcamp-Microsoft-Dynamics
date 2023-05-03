@@ -13,11 +13,17 @@ namespace Propriedades_Metodos_Construtores.Model
 
         public string Nome  // Validando GET e SET 
         {
-            get // Obter valor
+            /* get // Obter valor
             {
                 return _nome.ToUpper(); // Transforma o todo valor recebido em maiusculo 
-            }
+            } */
+            
+            //Utilizando Body Expression
+            get => _nome.ToUpper();
 
+            // Caso meu SET não precisasse da validação, poderia utilizar Body Expression
+            // set => _nome = value;
+            
             set //Atribui valores
             {
                 // Criando exceção
