@@ -9,7 +9,7 @@ namespace Propriedades_Metodos_Construtores.Model
     public class Pessoa
     {
         // Atributos
-        private string _nome;
+        private string _nome, _sobrenome;
         private int _idade;
 
         public string Nome  // Validando GET e SET 
@@ -37,6 +37,11 @@ namespace Propriedades_Metodos_Construtores.Model
             }
         }
 
+
+        public string Sobrenome { get; set; }
+
+        public string NomeCompleto => $"{Nome} {Sobrenome}".ToUpper(); //Propriedade somente de leitura
+
         public int Idade
         {
 
@@ -54,7 +59,7 @@ namespace Propriedades_Metodos_Construtores.Model
         // Métodos
         public void Apresentar()
         {
-            Console.WriteLine($"Olá, meu nome é {Nome}, e tenho {Idade} anos");
+            Console.WriteLine($"Olá, meu nome é {NomeCompleto}, e tenho {Idade} anos");
         }
     }
 }
