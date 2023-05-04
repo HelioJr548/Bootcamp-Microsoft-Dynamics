@@ -8,6 +8,17 @@ namespace Propriedades_Metodos_Construtores.Model
     // Classe
     public class Pessoa
     {
+        //Construtor padrao
+        public Pessoa()
+        { }
+
+        //Construtor recebe nome e sobrenome
+        public Pessoa(string nome, string sobrenome)
+        {
+            Nome = nome;
+            Sobrenome = sobrenome;
+        }
+
         // Atributos
         private string _nome, _sobrenome;
         private int _idade;
