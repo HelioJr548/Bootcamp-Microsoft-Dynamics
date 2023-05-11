@@ -13,6 +13,10 @@ cursoDeIngles.AdicionarAluno(p1);
 cursoDeIngles.AdicionarAluno(p2);
 cursoDeIngles.ListarAlunos(); */
 
+//Alterando localização do codigo (Sem o codigo, fica automatica)
+using System.Globalization;
+CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
+
 //Formatando Valores Monetários
 decimal valorMonetario = 82.40M;
 
