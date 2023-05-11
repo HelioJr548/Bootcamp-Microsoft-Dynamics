@@ -1,0 +1,15 @@
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Excecoes_Colecoes\bin\Debug\net7.0\Excecoes_Colecoes.exe
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Excecoes_Colecoes\bin\Debug\net7.0\Excecoes_Colecoes.deps.json
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Excecoes_Colecoes\bin\Debug\net7.0\Excecoes_Colecoes.runtimeconfig.json
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Excecoes_Colecoes\bin\Debug\net7.0\Excecoes_Colecoes.dll
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Excecoes_Colecoes\bin\Debug\net7.0\Excecoes_Colecoes.pdb
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Excecoes_Colecoes\obj\Debug\net7.0\Excecoes_Colecoes.csproj.AssemblyReference.cache
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Excecoes_Colecoes\obj\Debug\net7.0\Excecoes_Colecoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Excecoes_Colecoes\obj\Debug\net7.0\Excecoes_Colecoes.AssemblyInfoInputs.cache
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Excecoes_Colecoes\obj\Debug\net7.0\Excecoes_Colecoes.AssemblyInfo.cs
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Excecoes_Colecoes\obj\Debug\net7.0\Excecoes_Colecoes.csproj.CoreCompileInputs.cache
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Excecoes_Colecoes\obj\Debug\net7.0\Excecoes_Colecoes.dll
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Excecoes_Colecoes\obj\Debug\net7.0\refint\Excecoes_Colecoes.dll
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Excecoes_Colecoes\obj\Debug\net7.0\Excecoes_Colecoes.pdb
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Excecoes_Colecoes\obj\Debug\net7.0\Excecoes_Colecoes.genruntimeconfig.cache
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\dotNet-Csharp\Excecoes_Colecoes\obj\Debug\net7.0\ref\Excecoes_Colecoes.dll
