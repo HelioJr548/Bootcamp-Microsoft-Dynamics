@@ -24,3 +24,12 @@ Console.WriteLine($"{valorMonetario:C}"); // :C formata para a moeda da região 
 Console.WriteLine(valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR"))); //formata para a moeda da região especificada
 //Ao colocar um numero apos o C, formata a quantidade de decimais (serve para as duas formas acima)
 Console.WriteLine($"{valorMonetario:C20}"); //mostra 20 casas decimais
+
+//Formatação para porcentagem
+double porcentagem = .3421;
+Console.WriteLine(porcentagem.ToString("P"));
+
+//Formatação livre
+double numero = 123456;
+Console.WriteLine(numero.ToString("##-##-##"));
+
