@@ -21,3 +21,4 @@ CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
 decimal valorMonetario = 82.40M;
 
 Console.WriteLine($"{valorMonetario:C}"); // :C formata para a moeda da região (currency)
+Console.WriteLine(valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR"))); //formata para a moeda da região especificada
