@@ -1,7 +1,15 @@
-﻿//REALIZANDO LEITURA DE ARQUIVOS
-string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
-
-foreach (string linha in linhas)
+﻿//Tratando Exceção
+try
 {
-    Console.WriteLine(linha);
+    //REALIZANDO LEITURA DE ARQUIVOS
+    string[] linhas = File.ReadAllLines("Arquivos/arquivo_Leitura.txt");
+
+    foreach (string linha in linhas)
+    {
+        Console.WriteLine(linha);
+    }
+}
+catch (Exception ex) //Se houver exceção, armazena na variavel ex
+{
+    Console.WriteLine($"Ocorreu uma exceção generica. {ex.Message}");
 }
