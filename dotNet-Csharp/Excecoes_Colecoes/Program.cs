@@ -9,6 +9,10 @@ try
         Console.WriteLine(linha);
     }
 }
+catch (FileNotFoundException ex) //Se arquivo não achado, armazena exceção na variavel ex
+{
+    Console.WriteLine($"Ocorreu um erro na leitura do arquivo. Arquivo não encontrado. {ex.Message}");
+}
 catch (Exception ex) //Se houver exceção, armazena na variavel ex
 {
     Console.WriteLine($"Ocorreu uma exceção generica. {ex.Message}");
