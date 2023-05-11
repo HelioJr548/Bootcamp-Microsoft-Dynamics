@@ -22,3 +22,5 @@ decimal valorMonetario = 82.40M;
 
 Console.WriteLine($"{valorMonetario:C}"); // :C formata para a moeda da região (currency)
 Console.WriteLine(valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR"))); //formata para a moeda da região especificada
+//Ao colocar um numero apos o C, formata a quantidade de decimais (serve para as duas formas acima)
+Console.WriteLine($"{valorMonetario:C20}"); //mostra 20 casas decimais
