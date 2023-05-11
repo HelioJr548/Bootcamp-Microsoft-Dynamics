@@ -33,3 +33,17 @@ Console.WriteLine(porcentagem.ToString("P"));
 double numero = 123456;
 Console.WriteLine(numero.ToString("##-##-##"));
 
+//Formatação do DateTime
+DateTime data = DateTime.Now;
+
+Console.WriteLine(data.ToString("dd/MM/yyyy HH:mm"));
+Console.WriteLine(data.ToShortDateString());    //Exibe só data
+Console.WriteLine(data.ToShortTimeString());    //Exibe só horário
+
+string dataString = "32/04/2023 10:00";
+
+DateTime.TryParseExact(dataString, "yyyy-MM-dd HH:mm", 
+                        CultureInfo.InvariantCulture, 
+                        DateTimeStyles.None, out DateTime dataValidada);
+
+Console.WriteLine(dataValidada); //Se data valida exibe data, se não exibe valor padrao
