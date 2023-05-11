@@ -2,7 +2,7 @@
 try
 {
     //REALIZANDO LEITURA DE ARQUIVOS
-    string[] linhas = File.ReadAllLines("Arquivos/arquivo_Leitura.txt");
+    string[] linhas = File.ReadAllLines("Arquivos/pasta/arquivo_Leitura.txt");
 
     foreach (string linha in linhas)
     {
@@ -12,6 +12,10 @@ try
 catch (FileNotFoundException ex) //Se arquivo não achado, armazena exceção na variavel ex
 {
     Console.WriteLine($"Ocorreu um erro na leitura do arquivo. Arquivo não encontrado. {ex.Message}");
+}
+catch (DirectoryNotFoundException ex) //Se diretório não achado, armazena exceção na variavel ex
+{
+    Console.WriteLine($"Ocorreu um erro na leitura do arquivo. Caminho da pasta não encontrado. {ex.Message}");
 }
 catch (Exception ex) //Se houver exceção, armazena na variavel ex
 {
