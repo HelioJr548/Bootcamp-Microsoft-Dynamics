@@ -1,5 +1,41 @@
 ﻿using Excecoes_Colecoes.models;
 
+//Criando Pilha (LIFO: Last-In, First-Out)
+Stack<int> pilha = new Stack<int>();
+
+//Inserir elemento na Pilha
+pilha.Push(4);
+pilha.Push(6);
+pilha.Push(8);
+pilha.Push(10);
+
+//Percorrer pilha
+foreach (int item in pilha)
+{
+    Console.WriteLine(item);
+}
+
+//Remover elemento do topo
+Console.WriteLine($"Removendo o elemento do topo: {pilha.Pop()}");
+
+//Inserir elemento na Pilha
+pilha.Push(20);
+
+//Percorrer pilha
+foreach (int item in pilha)
+{
+    Console.WriteLine(item);
+}
+
+
+
+
+
+
+
+
+
+/* 
 //Criando Fila  (FIFO: First-In, First-Out)
 Queue<int> fila = new Queue<int>();
 
@@ -23,7 +59,7 @@ foreach (int item in fila)
 {
     Console.WriteLine(item);
 }
-
+*/
 
 
 
