@@ -2,7 +2,7 @@
 try
 {
     //REALIZANDO LEITURA DE ARQUIVOS
-    string[] linhas = File.ReadAllLines("Arquivos/pasta/arquivo_Leitura.txt");
+    string[] linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
 
     foreach (string linha in linhas)
     {
@@ -20,4 +20,8 @@ catch (DirectoryNotFoundException ex) //Se diretório não achado, armazena exce
 catch (Exception ex) //Se houver exceção, armazena na variavel ex
 {
     Console.WriteLine($"Ocorreu uma exceção generica. {ex.Message}");
+}
+finally //Executado se ou não houver exceção
+{
+    Console.WriteLine("Chegou até aqui");
 }
