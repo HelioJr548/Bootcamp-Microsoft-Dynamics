@@ -40,10 +40,17 @@ Console.WriteLine(data.ToString("dd/MM/yyyy HH:mm"));
 Console.WriteLine(data.ToShortDateString());    //Exibe só data
 Console.WriteLine(data.ToShortTimeString());    //Exibe só horário
 
-string dataString = "32/04/2023 10:00";
+string dataString = "2023-04-20 10:00";
 
-DateTime.TryParseExact(dataString, "yyyy-MM-dd HH:mm", 
+bool sucesso = DateTime.TryParseExact(dataString, "yyyy-MM-dd HH:mm", 
                         CultureInfo.InvariantCulture, 
                         DateTimeStyles.None, out DateTime dataValidada);
 
-Console.WriteLine(dataValidada); //Se data valida exibe data, se não exibe valor padrao
+if (sucesso) 
+{
+    Console.WriteLine($"Conversão com sucesso! Data: {dataString}");
+}
+else
+{
+    Console.WriteLine($"{dataString} não é uma data válida");
+}
