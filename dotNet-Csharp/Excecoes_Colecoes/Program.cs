@@ -1,4 +1,11 @@
-﻿//Tratando Exceção
+﻿using Excecoes_Colecoes.models;
+
+//Testando o "throw new Exception"
+new ExemploExcecao().Metodo1();
+
+
+
+/* //Tratando Exceção
 try
 {
     //REALIZANDO LEITURA DE ARQUIVOS
@@ -24,4 +31,4 @@ catch (Exception ex) //Se houver exceção, armazena na variavel ex
 finally //Executado se ou não houver exceção
 {
     Console.WriteLine("Chegou até aqui");
-}
+} */
