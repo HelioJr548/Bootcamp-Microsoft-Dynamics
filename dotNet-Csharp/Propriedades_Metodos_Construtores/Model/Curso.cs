@@ -35,9 +35,11 @@ namespace Propriedades_Metodos_Construtores.Model
         {
             Console.WriteLine($"Alunos do curso de: {Nome}");
 
-            foreach (Pessoa aluno in Alunos)
+            for (int count = 0; count < Alunos.Count; count++)
             {
-                Console.WriteLine($"{aluno.NomeCompleto}");
+                // string texto = "N° " + count + " " + Alunos[count].NomeCompleto; // Concatenação de String
+                string texto = $"N° {count + 1} - {Alunos[count].NomeCompleto}"; // Interpolação de String
+                Console.WriteLine(texto);
             }
         }
     }
