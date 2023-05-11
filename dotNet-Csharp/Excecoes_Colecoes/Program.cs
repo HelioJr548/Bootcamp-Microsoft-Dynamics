@@ -1,7 +1,39 @@
 ﻿using Excecoes_Colecoes.models;
 
-//Testando o "throw new Exception"
-new ExemploExcecao().Metodo1();
+//Criando Fila  (FIFO: First-In, First-Out)
+Queue<int> fila = new Queue<int>();
+
+//Inserindo valor no final da fila
+fila.Enqueue(2);
+fila.Enqueue(4);
+fila.Enqueue(6);
+fila.Enqueue(8);
+
+//Percorrer Fila
+foreach (int item in fila)
+{
+    Console.WriteLine(item);
+}
+
+//Retirar elemento da fila (Sempre o primeiro elemento)
+Console.WriteLine($"Removendo o 1° elemento da fila: {fila.Dequeue()}");
+
+//Percorrer Fila
+foreach (int item in fila)
+{
+    Console.WriteLine(item);
+}
+
+
+
+
+
+
+
+
+
+/* //Testando o "throw new Exception"
+new ExemploExcecao().Metodo1(); */
 
 
 
