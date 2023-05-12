@@ -1,5 +1,63 @@
 ﻿using Excecoes_Colecoes.models;
 
+//Criando Dicionario
+Dictionary<string, string> estados = new Dictionary<string, string>();
+
+//Inserindo elemento
+estados.Add("SP", "São Paulo");
+estados.Add("BA", "Bahia");
+estados.Add("MG", "Minas Gerais");
+
+//Obter elemento 
+Console.WriteLine($"Obtendo elemento: {estados["MG"]}");
+
+//Percorrer todo dicionario
+foreach (KeyValuePair<string, string> item in estados)  //Podemos substituir KeyValuePair por var  
+{
+    Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+}
+
+//Dispara exceção caso key for duplicada
+// estados.Add("BA", "Bahia");
+
+
+//Removendo elemento (Remove atraves da Key)
+Console.WriteLine($"\nRemovendo elemento referenciado pela Key/Chave: BA");
+estados.Remove("BA");
+
+//Alterando valor do elemento
+estados["SP"] = "São Paulo - valor alterado";
+
+//Percorrer dicionario
+foreach (KeyValuePair<string, string> item in estados)  //Podemos substituir KeyValuePair por var  
+{
+    Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+}
+
+//Verificando se chave existe
+string chave = Console.ReadLine();
+Console.WriteLine($"\nVerificiando o elemento: {chave}");
+
+if(estados.ContainsKey(chave))
+{
+    Console.WriteLine($"Valor existente. Não é seguro adicionar a chave: {chave}");
+}
+else
+{
+    Console.WriteLine($"Valor não existe. É seguro adicionar a chave: {chave}");
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
 //Criando Pilha (LIFO: Last-In, First-Out)
 Stack<int> pilha = new Stack<int>();
 
@@ -26,7 +84,7 @@ foreach (int item in pilha)
 {
     Console.WriteLine(item);
 }
-
+ */
 
 
 
