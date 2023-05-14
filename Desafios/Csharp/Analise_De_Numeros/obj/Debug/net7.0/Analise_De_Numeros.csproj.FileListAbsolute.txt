@@ -1,0 +1,15 @@
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Analise_De_Numeros\bin\Debug\net7.0\Analise_De_Numeros.exe
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Analise_De_Numeros\bin\Debug\net7.0\Analise_De_Numeros.deps.json
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Analise_De_Numeros\bin\Debug\net7.0\Analise_De_Numeros.runtimeconfig.json
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Analise_De_Numeros\bin\Debug\net7.0\Analise_De_Numeros.dll
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Analise_De_Numeros\bin\Debug\net7.0\Analise_De_Numeros.pdb
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Analise_De_Numeros\obj\Debug\net7.0\Analise_De_Numeros.csproj.AssemblyReference.cache
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Analise_De_Numeros\obj\Debug\net7.0\Analise_De_Numeros.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Analise_De_Numeros\obj\Debug\net7.0\Analise_De_Numeros.AssemblyInfoInputs.cache
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Analise_De_Numeros\obj\Debug\net7.0\Analise_De_Numeros.AssemblyInfo.cs
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Analise_De_Numeros\obj\Debug\net7.0\Analise_De_Numeros.csproj.CoreCompileInputs.cache
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Analise_De_Numeros\obj\Debug\net7.0\Analise_De_Numeros.dll
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Analise_De_Numeros\obj\Debug\net7.0\refint\Analise_De_Numeros.dll
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Analise_De_Numeros\obj\Debug\net7.0\Analise_De_Numeros.pdb
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Analise_De_Numeros\obj\Debug\net7.0\Analise_De_Numeros.genruntimeconfig.cache
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Analise_De_Numeros\obj\Debug\net7.0\ref\Analise_De_Numeros.dll
