@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Junior\\Desktop\\Bootcamp-Microsoft-Dynamics\\dotNet-Csharp\\Desafios\\SistemaDeHospedagem\\SistemaDeHospedagem.csproj",
+      "projectUniqueName": "C:\\Users\\Junior\\Desktop\\Bootcamp-Microsoft-Dynamics\\Desafios\\C#\\Sistema_De_Hospedagem\\SistemaDeHospedagem.csproj",
       "projectName": "SistemaDeHospedagem",
-      "projectPath": "C:\\Users\\Junior\\Desktop\\Bootcamp-Microsoft-Dynamics\\dotNet-Csharp\\Desafios\\SistemaDeHospedagem\\SistemaDeHospedagem.csproj",
+      "projectPath": "C:\\Users\\Junior\\Desktop\\Bootcamp-Microsoft-Dynamics\\Desafios\\C#\\Sistema_De_Hospedagem\\SistemaDeHospedagem.csproj",
       "packagesPath": "C:\\Users\\Junior\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Junior\\Desktop\\Bootcamp-Microsoft-Dynamics\\dotNet-Csharp\\Desafios\\SistemaDeHospedagem\\obj\\",
+      "outputPath": "C:\\Users\\Junior\\Desktop\\Bootcamp-Microsoft-Dynamics\\Desafios\\C#\\Sistema_De_Hospedagem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Junior\\AppData\\Roaming\\NuGet\\NuGet.Config"
