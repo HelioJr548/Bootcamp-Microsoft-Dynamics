@@ -77,12 +77,18 @@ classificarImc(calcularImc(altura, peso))
     - Acima de duas vezes, preço normal de etiqueta mais juros de 10%;
 */
 
+function formatarParaValorMonetario(valor){
+    return valor.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+}
+
 function aplicarDesconto(valor, desconto) {
-    return (calor - (valor * (desconto / 100)))
+    const valorComDesconto = valor - (valor * (desconto / 100))
+    return `Valor com desconto = ${formatarParaValorMonetario(valorComDesconto)}`
 }
 
 function aplicarJuros(valor, juros) {
-    return (valor + (valor * (juros / 100)));
+    const valorComJuros = valor + (valor * (juros / 100))
+    return `Valor com juros = ${formatarParaValorMonetario(valorComJuros)}`;
 }
 
 function verificarDescontoOuJuros(formatoPagamento) {
