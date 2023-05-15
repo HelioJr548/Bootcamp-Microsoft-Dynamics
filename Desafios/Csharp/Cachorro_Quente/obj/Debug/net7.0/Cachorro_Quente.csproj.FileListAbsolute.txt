@@ -1,0 +1,15 @@
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Cachorro_Quente\obj\Debug\net7.0\Cachorro_Quente.csproj.AssemblyReference.cache
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Cachorro_Quente\obj\Debug\net7.0\Cachorro_Quente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Cachorro_Quente\obj\Debug\net7.0\Cachorro_Quente.AssemblyInfoInputs.cache
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Cachorro_Quente\obj\Debug\net7.0\Cachorro_Quente.AssemblyInfo.cs
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Cachorro_Quente\obj\Debug\net7.0\Cachorro_Quente.csproj.CoreCompileInputs.cache
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Cachorro_Quente\bin\Debug\net7.0\Cachorro_Quente.exe
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Cachorro_Quente\bin\Debug\net7.0\Cachorro_Quente.deps.json
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Cachorro_Quente\bin\Debug\net7.0\Cachorro_Quente.runtimeconfig.json
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Cachorro_Quente\bin\Debug\net7.0\Cachorro_Quente.dll
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Cachorro_Quente\bin\Debug\net7.0\Cachorro_Quente.pdb
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Cachorro_Quente\obj\Debug\net7.0\Cachorro_Quente.dll
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Cachorro_Quente\obj\Debug\net7.0\refint\Cachorro_Quente.dll
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Cachorro_Quente\obj\Debug\net7.0\Cachorro_Quente.pdb
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Cachorro_Quente\obj\Debug\net7.0\Cachorro_Quente.genruntimeconfig.cache
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Cachorro_Quente\obj\Debug\net7.0\ref\Cachorro_Quente.dll
