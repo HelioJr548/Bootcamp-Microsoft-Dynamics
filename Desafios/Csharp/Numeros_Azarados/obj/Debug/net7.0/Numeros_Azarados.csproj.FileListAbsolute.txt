@@ -1,0 +1,15 @@
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Numeros_Azarados\obj\Debug\net7.0\Numeros_Azarados.csproj.AssemblyReference.cache
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Numeros_Azarados\obj\Debug\net7.0\Numeros_Azarados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Numeros_Azarados\obj\Debug\net7.0\Numeros_Azarados.AssemblyInfoInputs.cache
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Numeros_Azarados\obj\Debug\net7.0\Numeros_Azarados.AssemblyInfo.cs
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Numeros_Azarados\obj\Debug\net7.0\Numeros_Azarados.csproj.CoreCompileInputs.cache
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Numeros_Azarados\bin\Debug\net7.0\Numeros_Azarados.exe
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Numeros_Azarados\bin\Debug\net7.0\Numeros_Azarados.deps.json
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Numeros_Azarados\bin\Debug\net7.0\Numeros_Azarados.runtimeconfig.json
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Numeros_Azarados\bin\Debug\net7.0\Numeros_Azarados.dll
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Numeros_Azarados\bin\Debug\net7.0\Numeros_Azarados.pdb
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Numeros_Azarados\obj\Debug\net7.0\Numeros_Azarados.dll
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Numeros_Azarados\obj\Debug\net7.0\refint\Numeros_Azarados.dll
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Numeros_Azarados\obj\Debug\net7.0\Numeros_Azarados.pdb
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Numeros_Azarados\obj\Debug\net7.0\Numeros_Azarados.genruntimeconfig.cache
+C:\Users\Junior\Desktop\Bootcamp-Microsoft-Dynamics\Desafios\Csharp\Numeros_Azarados\obj\Debug\net7.0\ref\Numeros_Azarados.dll
